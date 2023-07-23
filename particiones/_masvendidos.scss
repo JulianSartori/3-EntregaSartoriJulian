@@ -1,14 +1,36 @@
-.contMasVendidos {
-    h3 {
-        font-family: Helvetica;
-        margin-left: 15px;
-        margin-top: 10px;
-        background-image: url('/');
+.bannerMasVendidos {
+    position: relative;
+
+    img {
+        max-width: 100%;
     }
 
-    .carouselIndex {
-        img {
-            max-width: 300px;
+    .titleMasVendidos {
+        p {
+            font-family: 'Poppins', sans-serif;
+            margin-left: 15px;
+            margin-top: 10px;
+            position: absolute;
+            font-size: 30px;
+            transform: translateX(130%) translateY(30px);
+            font-weight: bolder;
         }
+    }
+}
+
+.contMasVendidos {
+    #carouselExampleAutoplaying {
+        width: 400px;
+        margin: 20px;
+        transform: translateX(100%);
+        img {
+            max-width: 400px;
+        }
+    }
+    .titleTop3{
+        display: flex;
+        justify-content: center;
+        font-family: Helvetica, sans-serif;
+        margin-top: 20px;
     }
 }

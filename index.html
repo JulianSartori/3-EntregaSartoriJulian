@@ -60,33 +60,38 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
             <div class="txtAperturaIndex">
-            <p>“Andábamos sin buscarnos pero sabiendo que andábamos para encontrarnos”</p>
-            <p>"Ningún hombre es una isla por sí mismo.
-                Cada hombre es una pieza de un continente,una parte del todo."</p>
+                <p>“Andábamos sin buscarnos pero sabiendo que andábamos para encontrarnos”</p>
+                <p>"Ningún hombre es una isla por sí mismo.
+                    Cada hombre es una pieza de un continente,una parte del todo."</p>
             </div>
         </section>
         <section id="masVendidosIndex">
+            <div class="bannerMasVendidos">
+                <span class="titleMasVendidos">
+                    <p >Mas vendidos del mes</p>
+                </span>
+                <img src="./resources/imagenesBiblioteca/backMasvendidos.jpg" alt="Background Mas vendidos">
+            </div>
             <div class="contMasVendidos">
-                <h3>Mas vendidos del mes</h3>
-                <div id="carouselExample" class="carousel slide carouselIndex">
+                <h3 class="titleTop3">Top 3 de este mes</h3>
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="./resources/libro-clausylucas.jpeg" class="d-block w-100"
-                                alt="Libro-Claus y Lucas">
+                            <img src="./resources/libro-clausylucas.jpeg" class="d-block w-100" alt="libro-claus">
                         </div>
                         <div class="carousel-item">
-                            <img src="./resources/libroeltunel.PNG" class="d-block w-100" alt="Libro-El tunel">
+                            <img src="./resources/librobajar.PNG" class="d-block w-100" alt="libro-bajar">
                         </div>
                         <div class="carousel-item">
-                            <img src="./resources/librobajar.PNG" class="d-block w-100" alt="Libro-Bajar">
+                            <img src="./resources/libroeltunel.PNG" class="d-block w-100" alt="libro-eltunel">
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
                         data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
                         data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
@@ -94,8 +99,6 @@
                 </div>
             </div>
         </section>
-
-        </div>
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
