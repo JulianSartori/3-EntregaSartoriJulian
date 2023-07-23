@@ -16,4 +16,14 @@
             font-size: 30px;
         }
     }
+    .txtComienzoHero{
+        position: absolute;
+        color: white;
+        font-family: Helvetica;
+        transform: translateY(700px) translateX(40vw);
+        font-size: 40px;
+        p{
+            animation-iteration-count: infinite;
+        }
+    }
 }

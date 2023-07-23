@@ -1,0 +1,15 @@
+.aperturaIndex{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    .txtAperturaIndex{
+        margin-top: 50px;
+        display: block;
+        font-size: 25px;
+        width: 300px;
+        font-family: Helvetica;
+    }
+    .videoCortazar{
+        margin: 15px;
+    }
+}

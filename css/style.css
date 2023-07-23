@@ -41,3 +41,33 @@
       font-size: 80px; }
     .contHero .txtHero p {
       font-size: 30px; }
+  .contHero .txtComienzoHero {
+    position: absolute;
+    color: white;
+    font-family: Helvetica;
+    transform: translateY(700px) translateX(40vw);
+    font-size: 40px; }
+    .contHero .txtComienzoHero p {
+      animation-iteration-count: infinite; }
+
+.contMasVendidos h3 {
+  font-family: Helvetica;
+  margin-left: 15px;
+  margin-top: 10px;
+  background-image: url("/"); }
+
+.contMasVendidos .carouselIndex img {
+  max-width: 300px; }
+
+.aperturaIndex {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; }
+  .aperturaIndex .txtAperturaIndex {
+    margin-top: 50px;
+    display: block;
+    font-size: 25px;
+    width: 300px;
+    font-family: Helvetica; }
+  .aperturaIndex .videoCortazar {
+    margin: 15px; }
