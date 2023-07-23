@@ -7,7 +7,7 @@
   padding: 15px;
   display: flex;
   align-items: center; }
-  #header h1 {
+  #header h2 {
     display: inline;
     font-family: 'Poppins', sans-serif;
     font-size: 25px;
@@ -27,5 +27,17 @@
     color: black;
     font-size: 20px; }
 
-.contHero img {
-  max-width: 100%; }
+.contHero {
+  position: relative;
+  display: flex; }
+  .contHero img {
+    max-width: 100%; }
+  .contHero .txtHero {
+    position: absolute;
+    color: white;
+    transform: translateY(350px);
+    margin-left: 30px; }
+    .contHero .txtHero h1 {
+      font-size: 80px; }
+    .contHero .txtHero p {
+      font-size: 30px; }

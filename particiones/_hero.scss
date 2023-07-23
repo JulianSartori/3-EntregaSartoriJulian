@@ -1,0 +1,19 @@
+.contHero{
+    position: relative;
+    display: flex;
+    img{
+        max-width: 100%;
+    }
+    .txtHero{
+        position: absolute;
+        color: white;
+        transform: translateY(350px);
+        margin-left: 30px;
+        h1{
+            font-size: 80px;
+        }
+        p{
+            font-size: 30px;
+        }
+    }
+}
