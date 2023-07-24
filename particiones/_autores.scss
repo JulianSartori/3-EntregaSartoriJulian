@@ -1,0 +1,21 @@
+.bannerAutores {
+    position: relative;
+    img {
+        max-width: 100%;
+    }
+    .titleAutores {
+        p {
+            font-family: 'Poppins', sans-serif;
+            margin-left: 15px;
+            margin-top: 10px;
+            position: absolute;
+            font-size: 30px;
+            transform: translateX(435px) translateY(185px);
+            font-weight: bolder;
+            background-color: rgba(255, 255, 255, 0.158);
+            border-radius: 5px;
+            padding: 10px;
+            color: white;
+        }
+    }
+}
