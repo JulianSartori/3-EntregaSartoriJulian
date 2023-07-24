@@ -12,12 +12,16 @@
             margin-top: 10px;
             position: absolute;
             font-size: 30px;
-            transform: translateX(282px) translateY(120px);
+            top: 25vh;
+            left: 50vw;
+            transform: translate(-50%, -50%);
+            font-weight: bolder;
             font-weight: bolder;
             background-color: rgb(238, 195, 5);
             border-radius: 10px;
             padding: 10px;
             color: rgba(0, 0, 0, 0.74);
+            text-align: center;
         }
     }
 }
