@@ -1,0 +1,68 @@
+.contTop6Latam {
+    img{
+        max-width: 300px;
+    }
+    a:hover{
+        transform:scale(1.2);
+    }
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        "card1 card2 card3"
+        "card4 card5 card6"
+        ". . .";
+}
+
+.card1 {
+    grid-area: card1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px rgba(0, 0, 0, 0.212) solid;
+}
+
+.card2 {
+    grid-area: card2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px rgba(0, 0, 0, 0.212) solid;
+}
+
+.card3 {
+    grid-area: card3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px rgba(0, 0, 0, 0.212) solid;
+}
+
+.card4 {
+    grid-area: card4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px rgba(0, 0, 0, 0.212) solid;
+}
+
+.card5 {
+    grid-area: card5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px rgba(0, 0, 0, 0.212) solid;
+}
+
+.card6 {
+    grid-area: card6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px rgba(0, 0, 0, 0.212) solid;
+}
+
+.titleTop6Latam{
+    font-family: Poppins;
+    margin-top: 20px;
+    background-color: rgba(252, 142, 122, 0.411);
+}

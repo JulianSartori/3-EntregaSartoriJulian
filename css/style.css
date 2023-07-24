@@ -75,7 +75,8 @@
 
 .titleTop3 {
   margin: 20px;
-  color: white; }
+  color: white;
+  font-family: Poppins; }
 
 .gridMasVendidos {
   display: grid;
@@ -148,7 +149,7 @@
     margin-top: 10px;
     position: absolute;
     font-size: 30px;
-    transform: translateX(500px) translateY(185px);
+    transform: translateX(468px) translateY(162px);
     font-weight: bolder;
     background-color: rgba(255, 255, 255, 0.158);
     border-radius: 5px;
@@ -162,4 +163,151 @@
     margin-top: 10px; }
   .gridAutores .cardsAutores {
     display: flex;
-    align-items: center; }
+    align-items: center;
+    margin-bottom: 10px; }
+
+/* PAGE:GENERO */
+.sectionGenerosMobile {
+  display: none; }
+
+.contGeneros img {
+  max-width: 250px; }
+
+.contGeneros {
+  display: flex;
+  justify-content: space-between; }
+
+.contGeneros a:hover {
+  transform: scale(1.2); }
+
+.cont2Generos {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px; }
+
+.cont2Generos a:hover {
+  transform: scale(1.2); }
+
+/* PAGE E-BOOKS */
+.contEbooks {
+  display: flex;
+  justify-content: space-around; }
+
+.contEbooks a:hover {
+  transform: scale(1.2); }
+
+.tituloEbooks {
+  margin: 20px 10px; }
+
+/* PAGE MEMBRESIAS */
+.listMembresias {
+  display: flex;
+  list-style-type: none;
+  justify-content: center; }
+
+.listMembresias li {
+  margin: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.164); }
+
+.listMembresias a {
+  text-decoration: none; }
+
+.tituloMembresias {
+  text-align: center;
+  color: brown; }
+
+.ingresoMembresias {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin: 30px 0px 0px 0px; }
+
+.ingresoMembresias form {
+  border: 1px solid rgba(0, 0, 0, 0.224);
+  padding: 3px; }
+
+/* PAGE CONTACTO */
+.botonContacto {
+  display: flex;
+  justify-content: center; }
+
+.boton {
+  width: 150px;
+  background-color: red;
+  border: 1px solid black; }
+
+.mainContacto {
+  margin: 20px 0px 0px 0px; }
+
+.contTop6Latam {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "card1 card2 card3" "card4 card5 card6" ". . ."; }
+  .contTop6Latam img {
+    max-width: 300px; }
+  .contTop6Latam a:hover {
+    transform: scale(1.2); }
+
+.card1 {
+  grid-area: card1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px rgba(0, 0, 0, 0.212) solid; }
+
+.card2 {
+  grid-area: card2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px rgba(0, 0, 0, 0.212) solid; }
+
+.card3 {
+  grid-area: card3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px rgba(0, 0, 0, 0.212) solid; }
+
+.card4 {
+  grid-area: card4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px rgba(0, 0, 0, 0.212) solid; }
+
+.card5 {
+  grid-area: card5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px rgba(0, 0, 0, 0.212) solid; }
+
+.card6 {
+  grid-area: card6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px rgba(0, 0, 0, 0.212) solid; }
+
+.titleTop6Latam {
+  font-family: Poppins;
+  margin-top: 20px;
+  background-color: rgba(252, 142, 122, 0.411); }
+
+.bannerKids {
+  position: relative; }
+  .bannerKids img {
+    max-width: 100%; }
+  .bannerKids .titleBannerKids p {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 15px;
+    margin-top: 10px;
+    position: absolute;
+    font-size: 30px;
+    transform: translateX(282px) translateY(120px);
+    font-weight: bolder;
+    background-color: #eec305;
+    border-radius: 10px;
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.74); }
