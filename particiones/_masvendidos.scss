@@ -1,8 +1,12 @@
+#masVendidosIndex{
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);}
 .bannerMasVendidos {
     position: relative;
+
     img {
         max-width: 100%;
     }
+
     .titleMasVendidos {
         p {
             font-family: 'Poppins', sans-serif;
@@ -18,9 +22,12 @@
         }
     }
 }
-.titleTop3{
+
+.titleTop3 {
     margin: 20px;
+    color: white;
 }
+
 .gridMasVendidos {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -36,6 +43,7 @@
     justify-content: center;
     .carouselTop3 {
         width: 400px;
+
         img {
             max-width: 400px;
         }
@@ -43,26 +51,37 @@
 }
 
 .card1 {
+margin-top: 20px;
     grid-area: card1;
     display: flex;
     align-items: center;
+    justify-content: center;
+
 }
 
 .card2 {
+    margin-top: 20px;
     grid-area: card2;
     display: flex;
     align-items: center;
+    justify-content: center;
+
 }
 
 .card3 {
+    margin-top: 20px;
     grid-area: card3;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .card4 {
+    margin-top: 20px;
+
     grid-area: card4;
     display: flex;
     align-items: center;
     height: auto;
+    justify-content: center;
 }

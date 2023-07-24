@@ -1,15 +1,19 @@
-.aperturaIndex{
+.aperturaIndex {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    .txtAperturaIndex{
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+
+    .txtAperturaIndex {
         margin-top: 50px;
         display: block;
         font-size: 25px;
         width: 300px;
-        font-family: Helvetica;
+        font-family: 'Roboto', sans-serif;
+        color: white;
     }
-    .videoCortazar{
+
+    .videoCortazar {
         margin: 15px;
     }
 }

@@ -1,8 +1,12 @@
+#autoresIndex{
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);}
 .bannerAutores {
     position: relative;
+
     img {
         max-width: 100%;
     }
+
     .titleAutores {
         p {
             font-family: 'Poppins', sans-serif;
@@ -10,12 +14,25 @@
             margin-top: 10px;
             position: absolute;
             font-size: 30px;
-            transform: translateX(435px) translateY(185px);
+            transform: translateX(500px) translateY(185px);
             font-weight: bolder;
             background-color: rgba(255, 255, 255, 0.158);
             border-radius: 5px;
             padding: 10px;
             color: white;
         }
+    }
+}
+
+.gridAutores {
+    margin-top: 20px;
+    img {
+        max-width: 300px;
+        margin-top: 10px;
+    }
+
+    .cardsAutores {
+        display: flex;
+        align-items: center;
     }
 }
