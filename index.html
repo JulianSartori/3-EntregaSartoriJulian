@@ -14,6 +14,52 @@
 
 <body>
     <header>
+        <!-- NAV MOBILE -->
+        <section id="navMobile">
+            <nav class="navbar navbar-dark bg-dark fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Borges BookStore</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                        aria-labelledby="offcanvasDarkNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Borges BookStore</h5>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./pages/catalogo.html">Catalogo</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./pages/ebooks.html">eBooks</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./pages/membresias.html">Membresias</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex mt-3" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Buscar por libro o autor"
+                                    aria-label="Search">
+                                <button class="btn btn-success" type="submit">Buscar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <!-- HEADER -->
         <section id="header">
             <h2>Borges Bookstore</h2>
             <form class="d-flex" role="search">
@@ -271,81 +317,99 @@
             </div>
             <div class="card-group">
                 <div class="card cardsKids">
-                  <img src="https://http2.mlstatic.com/D_NQ_NP_2X_950817-MLA45342107168_032021-F.webp" class="card-img-top" alt="libro-recreo">
-                  <div class="card-body">
-                    <h5 class="card-title">Cuentos Para Salir Al Recreo - Margarita Mainé</h5>
-                    <p class="card-text">Un libro es una fuente de aprendizaje e imaginación. Permite conocer, descubrir y explorar el mundo que nos rodea. Aumenta nuestra curiosidad y nos mantiene entretenidos. Los libros nos permiten conectar con historias, personajes y sentimientos ayudando a nuestra comprensión, vocabulario y escritura.</p>
-                  </div>
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_950817-MLA45342107168_032021-F.webp"
+                        class="card-img-top" alt="libro-recreo">
+                    <div class="card-body">
+                        <h5 class="card-title">Cuentos Para Salir Al Recreo - Margarita Mainé</h5>
+                        <p class="card-text">Un libro es una fuente de aprendizaje e imaginación. Permite conocer,
+                            descubrir y explorar el mundo que nos rodea. Aumenta nuestra curiosidad y nos mantiene
+                            entretenidos. Los libros nos permiten conectar con historias, personajes y sentimientos
+                            ayudando a nuestra comprensión, vocabulario y escritura.</p>
+                    </div>
                 </div>
                 <div class="card cardsKids">
-                  <img src="https://http2.mlstatic.com/D_NQ_NP_2X_918793-MLA70370111817_072023-F.webp" class="card-img-top" alt="libro-elementos">
-                  <div class="card-body">
-                    <h5 class="card-title">Elementos - Una ciudad para todos</h5>
-                    <p class="card-text">La historia completa de la pelicula en un formato bellamente ilustrado. En una ciudad habitada por Elementos de Fuego, Tierra, Agua y Aire, una joven de Fuego y un muchacho de Agua descubriran que, pese a sus diferencias, tienen mucho en comun.Acompañalos y conoce su maravillosa historia!</p>
-                  </div>
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_918793-MLA70370111817_072023-F.webp"
+                        class="card-img-top" alt="libro-elementos">
+                    <div class="card-body">
+                        <h5 class="card-title">Elementos - Una ciudad para todos</h5>
+                        <p class="card-text">La historia completa de la pelicula en un formato bellamente ilustrado. En
+                            una ciudad habitada por Elementos de Fuego, Tierra, Agua y Aire, una joven de Fuego y un
+                            muchacho de Agua descubriran que, pese a sus diferencias, tienen mucho en comun.Acompañalos
+                            y conoce su maravillosa historia!</p>
+                    </div>
                 </div>
                 <div class="card cardsKids">
-                  <img src="https://http2.mlstatic.com/D_NQ_NP_2X_843199-MLA43460551875_092020-F.webp" class="card-img-top" alt="libro-dinosaurios">
-                  <div class="card-body">
-                    <h5 class="card-title">1001 Preguntas Y Respuestas Sobre Los Dinosaurios</h5>
-                    <p class="card-text">Para los fanaticos del viejo mundo de los dinosaurios, llegó el libro que te permite convertirte en un experto sobre el tema.</p>
-                  </div>
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_843199-MLA43460551875_092020-F.webp"
+                        class="card-img-top" alt="libro-dinosaurios">
+                    <div class="card-body">
+                        <h5 class="card-title">1001 Preguntas Y Respuestas Sobre Los Dinosaurios</h5>
+                        <p class="card-text">Para los fanaticos del viejo mundo de los dinosaurios, llegó el libro que
+                            te permite convertirte en un experto sobre el tema.</p>
+                    </div>
                 </div>
-              </div>
+            </div>
         </section>
         <section id="top6Latinoamerica">
-            <h3 class="titleTop6Latam animate__animated animate__slideInLeft">Si todavia necesitas mas inspiración, te presentamos el top 6 de Latinoamerica</h3>
+            <h3 class="titleTop6Latam animate__animated animate__slideInLeft">Si todavia necesitas mas inspiración, te
+                presentamos el top 6 de Latinoamerica</h3>
             <hr>
             <div class="contTop6Latam">
                 <div class="card1">
                     <a href="#">
-                    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_782283-MLA70218963322_062023-F.webp" alt="jugadores futbol argentina">
+                        <img src="https://http2.mlstatic.com/D_NQ_NP_2X_782283-MLA70218963322_062023-F.webp"
+                            alt="jugadores futbol argentina">
                     </a>
                 </div>
                 <div class="card2">
                     <a href="#">
-                    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_842913-MLA70241051513_062023-F.webp" alt="libro-la figura del mundo">
+                        <img src="https://http2.mlstatic.com/D_NQ_NP_2X_842913-MLA70241051513_062023-F.webp"
+                            alt="libro-la figura del mundo">
                     </a>
                 </div>
                 <div class="card3">
                     <a href="#">
-                    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_736836-MLA70155134300_062023-F.webp" alt="libro-dracula">
+                        <img src="https://http2.mlstatic.com/D_NQ_NP_2X_736836-MLA70155134300_062023-F.webp"
+                            alt="libro-dracula">
                     </a>
                 </div>
                 <div class="card4">
                     <a href="#">
-                    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_602392-MLA70176301723_062023-F.webp" alt="libro-el faro">
+                        <img src="https://http2.mlstatic.com/D_NQ_NP_2X_602392-MLA70176301723_062023-F.webp"
+                            alt="libro-el faro">
                     </a>
                 </div>
                 <div class="card5">
                     <a href="#">
-                    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_895774-MLA54128026050_032023-F.webp" alt="libro-ese tiempo">
+                        <img src="https://http2.mlstatic.com/D_NQ_NP_2X_895774-MLA54128026050_032023-F.webp"
+                            alt="libro-ese tiempo">
                     </a>
                 </div>
                 <div class="card6">
                     <a href="#">
-                    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_805890-MLA25714240520_062017-F.webp" alt="libro-la hermana tormenta">
+                        <img src="https://http2.mlstatic.com/D_NQ_NP_2X_805890-MLA25714240520_062017-F.webp"
+                            alt="libro-la hermana tormenta">
                     </a>
                 </div>
-              </div>
+            </div>
         </section>
+        <!-- MOBILE -->
     </main>
     <footer class="footer">
         <div>
-          <p class="p-3">@Borges BookStore</p>
-          <ul class="m-3">
-            <li>
-              <a href="#">Ayuda</a>
-            </li>
-            <li>
-              <a href="#">Legales</a>
-            </li>
-            <li>
-              <a href="#">Contacto</a>
-            </li>
-          </ul>
+            <p class="p-3">@Borges BookStore</p>
+            <ul class="m-3">
+                <li>
+                    <a href="#">Ayuda</a>
+                </li>
+                <li>
+                    <a href="#">Legales</a>
+                </li>
+                <li>
+                    <a href="#">Contacto</a>
+                </li>
+            </ul>
         </div>
-      </footer>    
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
