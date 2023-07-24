@@ -7,3 +7,26 @@
         align-items: center;
     }
 }
+@media (max-width:426px) {
+    .gridEbooks {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "libro1"
+            "libro2"
+            "libro3"
+            "libro4";
+    }
+    .description1{
+        display: none;
+    }
+    .description2{
+        display: none;
+    }
+    .description3{
+        display: none;
+    }
+    .description4{
+        display: none;
+    }
+}

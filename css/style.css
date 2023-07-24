@@ -208,6 +208,62 @@
 .tituloEbooks {
   margin: 20px 10px; }
 
+.gridEbooks {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "libro1 description1" "libro2 description2" "libro3 description3" "libro4 description4"; }
+
+.libro1 {
+  grid-area: libro1;
+  margin-left: 5vw; }
+
+.description1 {
+  grid-area: description1;
+  border: 1px solid rgba(0, 0, 0, 0.281);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin-right: 5vw; }
+
+.libro2 {
+  grid-area: libro2;
+  margin-left: 5vw; }
+
+.description2 {
+  grid-area: description2;
+  border: 1px solid rgba(0, 0, 0, 0.281);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin-right: 5vw; }
+
+.libro3 {
+  grid-area: libro3;
+  margin-left: 5vw; }
+
+.description3 {
+  grid-area: description3;
+  border: 1px solid rgba(0, 0, 0, 0.281);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin-right: 5vw; }
+
+.libro4 {
+  grid-area: libro4;
+  margin-left: 5vw; }
+
+.description4 {
+  grid-area: description4;
+  border: 1px solid rgba(0, 0, 0, 0.281);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin-right: 5vw; }
+
+#librosEbook p {
+  font-size: 20px; }
+
 /* PAGE MEMBRESIAS */
 .listMembresias {
   display: flex;
@@ -378,6 +434,20 @@
   .contEbooks {
     flex-direction: column;
     align-items: center; } }
+
+@media (max-width: 426px) {
+  .gridEbooks {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "libro1" "libro2" "libro3" "libro4"; }
+  .description1 {
+    display: none; }
+  .description2 {
+    display: none; }
+  .description3 {
+    display: none; }
+  .description4 {
+    display: none; } }
 
 @media (max-width: 769px) {
   .ingresoMembresias {
