@@ -360,3 +360,29 @@
     display: none; }
   #top6Latinoamerica {
     display: none; } }
+
+@media (max-width: 769px) {
+  .section1Generos {
+    display: none; }
+  .sectionGenerosMobile {
+    display: block;
+    margin-top: 60px; } }
+
+@media (max-width: 426px) {
+  .sectionGenerosMobile {
+    margin-left: 10vw; } }
+
+@media (max-width: 769px) {
+  h3 {
+    margin-top: 60px !important; }
+  .contEbooks {
+    flex-direction: column;
+    align-items: center; } }
+
+@media (max-width: 769px) {
+  .ingresoMembresias {
+    margin-top: 100px !important; } }
+
+@media (max-width: 769px) {
+  .mainContacto {
+    margin-top: 60px; } }

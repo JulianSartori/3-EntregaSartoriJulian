@@ -13,67 +13,112 @@
 
 <body>
   <header>
-    <section id="header">
-        <h2>Borges Bookstore</h2>
-        <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Buscar por libro,autor,genero,editorial"
-                aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Buscar</button>
-        </form>
+    <!-- NAV MOBILE -->
+    <section id="navMobile">
+      <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Borges BookStore</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+            aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Borges BookStore</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./catalogo.html">Catalogo</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./ebooks.html">eBooks</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./membresias.html">Membresias</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contacto.html">Contacto</a>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Buscar por libro o autor"
+                  aria-label="Search">
+                <button class="btn btn-success" type="submit">Buscar</button>
+              </form>
+            </div>
+          </div>
         </div>
-        </nav>
-        <nav>
-            <ul>
-                <a href="../index.html">
-                    <li>Inicio</li>
-                </a>
-                <a href="./catalogo.html">
-                    <li>Catalogo</li>
-                </a>
-                <a href="./ebooks.html">
-                    <li>eBook</li>
-                </a>
-                <a href="./membresias.html">
-                    <li>Membresias</li>
-                </a>
-                <a href="./contacto.html">
-                    <li>Contacto</li>
-                </a>
-            </ul>
-        </nav>
+      </nav>
     </section>
-</header>
-<main>
+    <!-- HEADER -->
+    <section id="header">
+      <h2>Borges Bookstore</h2>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Buscar por libro,autor,genero,editorial"
+          aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
+      </form>
+      </div>
+      </nav>
+      <nav>
+        <ul>
+          <a href="../index.html">
+            <li>Inicio</li>
+          </a>
+          <a href="./catalogo.html">
+            <li>Catalogo</li>
+          </a>
+          <a href="./ebooks.html">
+            <li>eBook</li>
+          </a>
+          <a href="./membresias.html">
+            <li>Membresias</li>
+          </a>
+          <a href="./contacto.html">
+            <li>Contacto</li>
+          </a>
+        </ul>
+      </nav>
+    </section>
+  </header>
+  <main>
     <section class="section1Generos">
-    <div class="contGeneros">
-      <a href="#">
-        <img src="../resources/Generos/Didactico.png" alt="genero-didactico">
-      </a>
-      <a href="#">
-        <img src="../resources/Generos/Dramatico.png" alt="genero-dramatico">
-      </a>
-      <a href="#">
-        <img src="../resources/Generos/Lirico.png" alt="genero-lirico">
-      </a>
-      <a href="#">
-        <img src="../resources/Generos/Narrativo.png" alt="genero-narrativo">
-      </a>
-    </div>
-    <div class="cont2Generos">
-      <a href="#">
-        <img src="../resources/Generos/subgenero1.png" alt="subgenero1">
-      </a>
-      <a href="#">
-        <img src="../resources/Generos/subgenero2.png" alt="subgenero2">
-      </a>
-      <a href="#">
-        <img src="../resources/Generos/subgenero3.png" alt="subgenero3">
-      </a>
-      <a href="#">
-        <img src="../resources/Generos/subgenero4.png" alt="subgenero4">
-      </a>
-    </div>
-  </section>
+      <div class="contGeneros">
+        <a href="#">
+          <img src="../resources/Generos/Didactico.png" alt="genero-didactico">
+        </a>
+        <a href="#">
+          <img src="../resources/Generos/Dramatico.png" alt="genero-dramatico">
+        </a>
+        <a href="#">
+          <img src="../resources/Generos/Lirico.png" alt="genero-lirico">
+        </a>
+        <a href="#">
+          <img src="../resources/Generos/Narrativo.png" alt="genero-narrativo">
+        </a>
+      </div>
+      <div class="cont2Generos">
+        <a href="#">
+          <img src="../resources/Generos/subgenero1.png" alt="subgenero1">
+        </a>
+        <a href="#">
+          <img src="../resources/Generos/subgenero2.png" alt="subgenero2">
+        </a>
+        <a href="#">
+          <img src="../resources/Generos/subgenero3.png" alt="subgenero3">
+        </a>
+        <a href="#">
+          <img src="../resources/Generos/subgenero4.png" alt="subgenero4">
+        </a>
+      </div>
+    </section>
     <section class="container sectionGenerosMobile">
       <img src="../resources/Generos/Didactico.png" alt="genero-didactico">
       <img src="../resources/Generos/Dramatico.png" alt="genero-dramatico">

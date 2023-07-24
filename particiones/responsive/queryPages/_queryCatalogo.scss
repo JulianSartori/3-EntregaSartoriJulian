@@ -1,0 +1,14 @@
+@media (max-width:769px) {
+    .section1Generos {
+        display: none;
+    }
+    .sectionGenerosMobile{
+        display: block;
+        margin-top: 60px;
+    }
+}
+@media (max-width:426px){
+    .sectionGenerosMobile{
+        margin-left: 10vw;
+}
+}
