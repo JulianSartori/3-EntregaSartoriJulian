@@ -417,6 +417,10 @@
   #top6Latinoamerica {
     display: none; } }
 
+@media (max-width: 426px) {
+  .titleBannerKids {
+    display: none; } }
+
 @media (max-width: 769px) {
   .section1Generos {
     display: none; }
