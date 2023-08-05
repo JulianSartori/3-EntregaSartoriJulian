@@ -373,7 +373,7 @@
 .btnVolver {
   background-color: green;
   position: fixed;
-  bottom: 20px;
+  bottom: 130px;
   right: 20px;
   padding: 10px;
   font-size: 30px;
@@ -403,15 +403,18 @@
 /* FOOTER */
 .footer {
   background-color: black; }
-
-.footer ul {
-  list-style-type: square; }
-
-.footer a {
-  color: white; }
-
-.footer p {
-  color: white; }
+  .footer .listFooter {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    padding-top: 10px; }
+  .footer a {
+    text-decoration: none;
+    color: white; }
+  .footer img {
+    width: 46px; }
 
 /* ESTRATEGIA MOBILE LAST */
 /* max-width --> el @media aplica para todos los dispositivos menores al tamaño ej.500px --> para abajo */
@@ -435,6 +438,8 @@
   #top6Latinoamerica {
     display: none; }
   .btnVolver {
+    display: none; }
+  .footer {
     display: none; } }
 
 @media (max-width: 426px) {
