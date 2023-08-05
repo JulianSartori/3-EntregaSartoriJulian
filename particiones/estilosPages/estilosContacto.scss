@@ -12,3 +12,14 @@
 .mainContacto {
     margin: 20px 0px 0px 0px;
 }
+
+.form-floating{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 600px;
+    &>label{
+        margin: 10px;
+    }
+}

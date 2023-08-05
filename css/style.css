@@ -304,6 +304,15 @@
 .mainContacto {
   margin: 20px 0px 0px 0px; }
 
+.form-floating {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 600px; }
+  .form-floating > label {
+    margin: 10px; }
+
 .contTop6Latam {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -361,6 +370,15 @@
   font-family: Poppins;
   background-color: #eec305; }
 
+.btnVolver {
+  background-color: green;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  font-size: 30px;
+  border: solid white 1px; }
+
 .bannerKids {
   position: relative; }
   .bannerKids img {
@@ -415,6 +433,8 @@
   .bannerMasVendidos {
     display: none; }
   #top6Latinoamerica {
+    display: none; }
+  .btnVolver {
     display: none; } }
 
 @media (max-width: 426px) {
